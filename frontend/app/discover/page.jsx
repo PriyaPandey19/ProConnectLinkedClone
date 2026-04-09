@@ -1,6 +1,6 @@
 "use client"
 import UserLayout from '../layout/UserLayout'
-import DashboardLayout from '../layout/DashboardLayout';
+import DashboardLayout from '../layout/DashboardLayout/page';
 import { useDispatch, useSelector } from 'react-redux'
 import React,{ useEffect } from 'react'
 import { getAllUsers } from '../config/redux/action/authAction'
