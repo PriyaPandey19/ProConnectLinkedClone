@@ -3,7 +3,7 @@ import React, { useEffect,useState } from 'react'
 import UserLayout from '../layout/UserLayout'
 
 import { getAboutUser } from '../config/redux/action/authAction'
-import DashboardLayout from '../layout/DashBoardLayout/page';
+import DashboardLayout from '../layout/DashboardLayout';
 import styles from "./index.module.css"
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllPosts } from '../config/redux/action/postAction';
