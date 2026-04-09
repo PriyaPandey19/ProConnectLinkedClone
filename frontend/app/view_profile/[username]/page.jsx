@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import clientServer from "../../config/clientServer";
 import UserLayout from "../../layout/UserLayout";
-import DashBoardLayout from "../../layout/DashBoardLayout/page";
+import DashBoardLayout from "../../layout/DashboardLayout/page";
 import styles from "./index.module.css";
 import { useRouter, useParams } from "next/navigation"; 
 import { useDispatch, useSelector } from "react-redux";
