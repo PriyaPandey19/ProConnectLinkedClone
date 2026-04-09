@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect,useState } from 'react'
 import UserLayout from '../layout/UserLayout'
-import DashboardLayout from '../layout/DashBoardLayout/page'
+import DashboardLayout from '../layout/DashBoardLayout/page';
 import { getAboutUser } from '../config/redux/action/authAction'
 import styles from "./index.module.css"
 import { useDispatch, useSelector } from 'react-redux';
