@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const clientServer = axios.create({
-  baseURL: "http://localhost:9090", // ✅ correct port
+  baseURL: "https://proconnectlinkedclone.onrender.com/", // ✅ correct port
 });
 
 export default clientServer;

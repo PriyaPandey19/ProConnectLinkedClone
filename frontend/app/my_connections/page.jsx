@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from 'react'
 import UserLayout from "../layout/UserLayout";
-import DashboardLayout from "../layout/DashboardLayout/page";
+import DashboardLayout from '../layout/DashBoardLayout/page';
 import { AcceptConnection, getMyConnectionRequest } from '../config/redux/action/authAction';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from "./index.module.css"
@@ -11,7 +11,7 @@ import {useRouter} from 'next/navigation'
 
      const dispatch = useDispatch();
      const authState = useSelector((state) =>state.auth)
-       const baseURL = "http://localhost:9090";
+       const baseURL = "https://proconnectlinkedclone.onrender.com/";
 
       useEffect(()=>{
           dispatch(getMyConnectionRequest({token:localStorage.getItem("token")}));

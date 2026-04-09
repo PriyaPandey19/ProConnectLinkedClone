@@ -19,7 +19,7 @@ import clientServer from '../config/clientServer';
     const [userProfile,setUserProfile] = useState({})
 
     const dispatch = useDispatch();
-    const baseUrl ="http://localhost:9090";
+    const baseUrl ="https://proconnectlinkedclone.onrender.com/";
 
     const [isModalOpen,setIsModalOpen] = useState(false);   
 

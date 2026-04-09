@@ -26,7 +26,7 @@ export default function ViewProfilePage() {
   const [userProfile, setUserProfile] = useState(null);
   const [userPosts, setUserPosts] = useState([]);
 
-  const baseURL = "http://localhost:9090";
+  const baseURL = "https://proconnectlinkedclone.onrender.com/";
 
   const getUserPost = async() =>{
     await dispatch(getAllPosts());

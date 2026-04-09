@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {deletePost, getAllComments, getAllPosts, incrementPostLike, postComment} from "../config/redux/action/postAction";
 import { getAboutUser, getAllUsers } from '../config/redux/action/authAction';
 import UserLayout from '../layout/UserLayout';
-import DashboardLayout from '../layout/DashBoardLayout/page.jsx';
+import DashboardLayout from '../layout/DashBoardLayout/page';
 import styles from "./index.module.css";
 import clientServer from "../config/clientServer.js"
 import { createPost } from '../config/redux/action/postAction';
@@ -17,7 +17,7 @@ export default function Dashboard() {
    
 
   const router =  useRouter();
-  const baseURL = "http://localhost:9090";
+  const baseURL = "https://proconnectlinkedclone.onrender.com/";
 
   const dispatch = useDispatch();
 

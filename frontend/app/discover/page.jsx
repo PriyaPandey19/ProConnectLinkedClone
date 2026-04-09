@@ -1,6 +1,6 @@
 "use client"
 import UserLayout from '../layout/UserLayout'
-import DashboardLayout from '../layout/DashboardLayout/page'
+import DashboardLayout from '../layout/DashBoardLayout/page'
 import { useDispatch, useSelector } from 'react-redux'
 import React,{ useEffect } from 'react'
 import { getAllUsers } from '../config/redux/action/authAction'
@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation'
 import {viewProfile} from "../view_profile/[username]/page"
 
 export default function Discoverpage({}) {
-    const baseUrl ="http://localhost:9090";
+    const baseUrl ="https://proconnectlinkedclone.onrender.com/";
 
     const authState = useSelector((state) => state.auth)
 
