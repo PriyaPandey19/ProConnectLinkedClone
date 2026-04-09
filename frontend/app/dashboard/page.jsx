@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {deletePost, getAllComments, getAllPosts, incrementPostLike, postComment} from "../config/redux/action/postAction";
 import { getAboutUser, getAllUsers } from '../config/redux/action/authAction';
 import UserLayout from '../layout/UserLayout';
-import DashboardLayout from '../layout/DashBoardLayout/page';
+import DashboardLayout from '../layout/DashboardLayout/page';
 import styles from "./index.module.css";
 import clientServer from "../config/clientServer.js"
 import { createPost } from '../config/redux/action/postAction';
